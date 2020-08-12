@@ -1,6 +1,7 @@
 #check if file exists. If not, download it.
 if(!file.exists("zip.test.gz"))
 {
+  #download the file from this url and store it in "zip.test.gz"
   download.file("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/zip.test.gz", "zip.test.gz")
 }
 
